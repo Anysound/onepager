@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+		<style>
+			.preloader {
+				position:fixed;
+				top:0;
+				right: 0;
+				left: 0;bottom: 0;
+				z-index: 3;
+				background: white; }
+			.preloader__circle {
+			position: relative;
+			top: 50vh;
+			left: 50%;
+			margin: -100px 0 0 -100px;
+				}
+		</style>
+		<script src="https://use.fontawesome.com/14519aa590.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Exo+2:400,500|Open+Sans:400,500,600,700,800" rel="stylesheet">
+		
+	</head>
+	<body class="page">
+		<div class="preloader">
+			<div class="preloader__circle">
+				<img src="img/Eclipse-1s-200px.svg" alt="">
+			</div>
+		</div>
+		<header class="header">
+			<div class="logonav">
+				<div class="logo">
+					<a href="#"> <img src="img/logo.png" alt="Deal with it!"></a>
+				</div>
+				<div class="form-group">
+					<div class="sign"><a href="" class="sign-in">Sign in</a><a href="" class="sign-up"> Sign up</a></div>
+					<a href="#" class="btn"><i class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i><button class="checkout">checkout</button> </a></div>
+				</div>
+			</header>
+			<section class="main-section">
+				
+				<div class="prices">
+					<div class="prices__items">
+						<div class="prices__item">
+							<span class="prices__items_value">Value</span>
+							<span class="prices__items_digits">$90</span>
+						</div>
+						<div class="prices__item">
+							<span class="prices__items_value">Discount</span>
+							<span class="prices__items_digits">15.1%</span>
+						</div>
+						<div class="prices__item">
+							<span class="prices__items_value">Save</span>
+							<span class="prices__items_digits">$20</span>
+						</div>
+					</div>
+				</div>
+				<div class="timer">
+					
+					<div class="timer-time">
+						<span class="timer-text">Time left to purchase</span>
+						<div class="timer-div">
+							<div class="timer-item">
+								<span class="timer-item__numbers" id="timer-v-hours"></span>
+								<span id="timer-v-hours__text">&nbsp; &nbsp;:&nbsp; &nbsp;</span>
+							</div>
+							<div class="timer-item">
+								<span class="timer-item__numbers" id="timer-v-minutes"></span>
+								<span id="timer-v-minutes__text">&nbsp; &nbsp;:&nbsp; &nbsp; </span>
+							</div>
+							<div class="timer-item">
+								<span class="timer-item__numbers" id="timer-v-seconds"></span>
+								<span id="timer-v-seconds__text"></span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="timer-under">
+					<p class="timer-under-p">Hours</p>
+					<p class="timer-under-p">Minutes</p>
+					<p class="timer-under-p">Seconds</p>
+				</div>
+				<div class="buy-now">
+					<p class="buy-price"> $20.00</p>
+					<div class="buy-button">
+						<img src="img/Layer20@1X.png" alt="">
+						<img src="img/Layer24@1X.png" alt="">
+					</div>
+					<div class="buy-div">
+						<a href="#" class="buy-btn">
+							<img src="img/crop@1X.png" class="buy-btn__1" alt="">
+							<img src="img/if_shopping_basket_2_40839.png" class="buy-btn__2" alt="">
+							
+						</a>
+					</div>
+					<p class="recc">recommend to friends!</p>
+					<div class="icons">
+						<div class="icons__item"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></div>
+						<div class="icons__item"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></div>
+						<div class="icons__item"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></div>
+					</div>
+					
+				</div>
+				<div class="iframee"><iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A795b1144de5a610efbb2d59dd1e74e5fa4124fa9b1c7a9b660cf7d24988d4dc9&amp;source=constructor" width="290" height="100%" frameborder="0"></iframe> </div>
+				
+				<!-- VK Widget -->
+				
+			</section>
+			<section class="main">
+				<div class="tab-main">
+					
+					<div class="tab-links">
+						<a href='#' class='tab-link tab-link-active first_link' data-id='tab1'>Hot Deals</a>
+						<a href='#' class='tab-link second_link' data-id='tab2'>Deal of the day</a>
+						<a href='#' class='tab-link third_link' data-id='tab3'>Most recent</a>
+						<select name="" id="">
+							<option value="" id="select_value">Select your city</option>
+							<option value="" id="get_value">Los Angeles</option>
+							<option value="" id="get_value">New York</option>
+							<option value="" id="get_value">Sidney</option>
+							<option value="" id="get_value">Saint-Petersbourg</option>
+							<option value="" id="get_value">Other</option></select>
+						</div>
+						<div id="tab1" class="tab-block tab-block-active">
+							<div class="tab1__left">								<h1 class="tab__h1">Lorem Ipsum is simply dummy text of the printing</h1>
+								<img src="img/Layer46.png" class="imga" alt=":)">
+								<p class="tab__p">
+								Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p>
+								<div class="tab__div">
+									<img src="img/Layer34@1X.png" alt="">
+									<div class="tab__div_left">
+										<span class="tab__div_number">Phone number</span>
+										<span class="tab__div_digits" type="tel">99 - 998 547 533</span>
+										<div class="fa__div"><i class="fa fa-map-marker fa-5x" aria-hidden="true"></i>
+											<div class="address__div"><span class="tab__div_address">Address</span> 								<span class="tab__div_text">Lorem Ipsum is simply Dummy text of the printing And typesetting industry. </span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<p class="tab__p">
+								Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries but also the leap into electronic typesetting, remaining essentially unchanged.
+								It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.It was popularised in the 1960s with the release  of Letraset sheets containing.
+							</p>
+						</div>
+						<div class="tab1__right">
+							<h1 class="tab1__h1">Todays deals</h1>
+							<div class="tab1__div">
+								<h2 class="tab1__div__h2">Lorem ipsum is simply</h2>
+								<div class="tab1__div__items">
+									<div class="tab1__div__item">
+										<h2 class="tab1__div__title">Value</h2>
+										<span class="tab1__div__symbols">$90</span>
+										
+									</div>
+									<div class="tab1__div__item">
+										<h2 class="tab1__div__title">Discount</h2>
+										<span class="tab1__div__symbols">15.1%</span>
+										
+									</div>
+									<div class="tab1__div__item">
+										<h2 class="tab1__div__title">Save</h2>
+										<span class="tab1__div__symbols">$20</span>
+										
+									</div>
+									
+								</div>
+								<div class="tab1__img__timer">
+									<img src="img/Layer21 copy@1X.png"  alt="">
+									<div class="tab1__img__timer__items">
+										<i class="fa fa-clock-o fa-2x" aria-hidden="true"></i>
+										<span class="span__time">Time left</span>
+										<div class="timer1">
+											
+											<div class="timer-time1">
+												<span class="timer-text1"></span>
+												<div class="timer-div1">
+													<div class="timer-item1">
+														<span class="timer-item__numbers1" id="timer-v-hours1"></span>
+														<span id="timer-v-hours__text1"> : </span>
+													</div>
+													<div class="timer-item1">
+														<span class="timer-item__numbers1" id="timer-v-minutes1"></span>
+														<span id="timer-v-minutes__text1"> :  </span>
+													</div>
+													<div class="timer-item1">
+														<span class="timer-item__numbers1" id="timer-v-seconds1"></span>
+														<span id="timer-v-seconds__text1"></span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="tab1__div">
+								<h2 class="tab1__div__h2">Lorem ipsum is simply</h2>
+								<div class="tab1__div__items">
+									<div class="tab1__div__item">
+										<h2 class="tab1__div__title">Value</h2>
+										<span class="tab1__div__symbols">$90</span>
+										
+									</div>
+									<div class="tab1__div__item">
+										<h2 class="tab1__div__title">Discount</h2>
+										<span class="tab1__div__symbols">15.1%</span>
+										
+									</div>
+									<div class="tab1__div__item">
+										<h2 class="tab1__div__title">Save</h2>
+										<span class="tab1__div__symbols">$20</span>
+										
+									</div>
+									
+								</div>
+								<div class="tab1__img__timer">
+									<img src="img/Layer21 copy@1X.png"  alt="">
+									<div class="tab1__img__timer__items">
+										<i class="fa fa-clock-o fa-2x" aria-hidden="true"></i>
+										<span class="span__time">Time left</span>
+										<div class="timer3">
+											
+											<div class="timer-time3">
+												<span class="timer-text3"></span>
+												<div class="timer-div3">
+													<div class="timer-item3">
+														<span class="timer-item__numbers3" id="timer-v-hours3"></span>
+														<span id="timer-v-hours__text3"> : </span>
+													</div>
+													<div class="timer-item3">
+														<span class="timer-item__numbers3" id="timer-v-minutes3"></span>
+														<span id="timer-v-minutes__text3"> :  </span>
+													</div>
+													<div class="timer-item3">
+														<span class="timer-item__numbers3" id="timer-v-seconds3"></span>
+														<span id="timer-v-seconds__text3"></span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="tab1__div">
+								<h2 class="tab1__div__h2">Lorem ipsum is simply</h2>
+								<div class="tab1__div__items">
+									<div class="tab1__div__item">
+										<h2 class="tab1__div__title">Value</h2>
+										<span class="tab1__div__symbols">$90</span>
+										
+									</div>
+									<div class="tab1__div__item">
+										<h2 class="tab1__div__title">Discount</h2>
+										<span class="tab1__div__symbols">15.1%</span>
+										
+									</div>
+									<div class="tab1__div__item">
+										<h2 class="tab1__div__title">Save</h2>
+										<span class="tab1__div__symbols">$20</span>
+										
+									</div>
+									
+								</div>
+								<div class="tab1__img__timer">
+									<img src="img/Layer21 copy@1X.png"  alt="">
+									<div class="tab1__img__timer__items">
+										<i class="fa fa-clock-o fa-2x" aria-hidden="true"></i>
+										<span class="span__time">Time left</span>
+										<div class="timer2">
+											
+											<div class="timer-time2">
+												<span class="timer-text2"></span>
+												<div class="timer-div2">
+													<div class="timer-item2">
+														<span class="timer-item__numbers2" id="timer-v-hours2"></span>
+														<span id="timer-v-hours__text2"> : </span>
+													</div>
+													<div class="timer-item2">
+														<span class="timer-item__numbers2" id="timer-v-minutes2"></span>
+														<span id="timer-v-minutes__text2"> :  </span>
+													</div>
+													<div class="timer-item2">
+														<span class="timer-item__numbers2" id="timer-v-seconds2"></span>
+														<span id="timer-v-seconds__text2"></span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="tab1__div">
+								<h2 class="tab1__div__h2">Lorem ipsum is simply</h2>
+								<div class="tab1__div__items">
+									<div class="tab1__div__item">
+										<h2 class="tab1__div__title">Value</h2>
+										<span class="tab1__div__symbols">$90</span>
+										
+									</div>
+									<div class="tab1__div__item">
+										<h2 class="tab1__div__title">Discount</h2>
+										<span class="tab1__div__symbols">15.1%</span>
+										
+									</div>
+									<div class="tab1__div__item">
+										<h2 class="tab1__div__title">Save</h2>
+										<span class="tab1__div__symbols">$20</span>
+										
+									</div>
+									
+								</div>
+								<div class="tab1__img__timer">
+									<img src="img/Layer21 copy@1X.png"  alt="">
+									<div class="tab1__img__timer__items">
+										<i class="fa fa-clock-o fa-2x" aria-hidden="true"></i>
+										<span class="span__time">Time left</span>
+										<div class="timer4">
+											
+											<div class="timer-time4">
+												<span class="timer-text4"></span>
+												<div class="timer-div4">
+													<div class="timer-item4">
+														<span class="timer-item__numbers4" id="timer-v-hours4"></span>
+														<span id="timer-v-hours__text4"> : </span>
+													</div>
+													<div class="timer-item4">
+														<span class="timer-item__numbers4" id="timer-v-minutes4"></span>
+														<span id="timer-v-minutes__text4"> :  </span>
+													</div>
+													<div class="timer-item4">
+														<span class="timer-item__numbers4" id="timer-v-seconds4"></span>
+														<span id="timer-v-seconds__text4"></span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="tab2" class="tab-block">
+						<div class="tab1__left">								<h1 class="tab__h1">Lorem Ipsum is simply dummy text of the printing 2</h1>
+							<img src="img/Layer46.png" class="imga" alt=":)">
+							<p class="tab__p">
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p>
+							<div class="tab__div">
+								<img src="img/Layer34@1X.png" alt="">
+								<div class="tab__div_left">
+									<span class="tab__div_number">Phone number</span>
+									<span class="tab__div_digits" type="tel">99 - 998 547 533</span>
+									<div class="fa__div"><i class="fa fa-map-marker fa-5x" aria-hidden="true"></i>
+										<div class="address__div"><span class="tab__div_address">Address</span> 								<span class="tab__div_text">Lorem Ipsum is simply Dummy text of the printing And typesetting industry. </span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<p class="tab__p">
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries but also the leap into electronic typesetting, remaining essentially unchanged.
+							It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.
+						</div>
+						<div class="tab1__right">
+							<h1 class="tab1__h1">Todays deals</h1>
+							<div class="tab1__div">
+								<h2 class="tab1__div__h2">Lorem ipsum is simply</h2>
+								<div class="tab1__div__items">
+									<div class="tab1__div__item">
+										<h2 class="tab1__div__title">Value</h2>
+										<span class="tab1__div__symbols">$93</span>
+										
+									</div>
+									<div class="tab1__div__item">
+										<h2 class="tab1__div__title">Discount</h2>
+										<span class="tab1__div__symbols">19%</span>
+										
+									</div>
+									<div class="tab1__div__item">
+										<h2 class="tab1__div__title">Save</h2>
+										<span class="tab1__div__symbols">$50</span>
+										
+									</div>
+									
+								</div>
+								<div class="tab1__img__timer">
+									<img src="img/Layer21 copy@1X.png"  alt="">
+									<div class="tab1__img__timer__items">
+										<i class="fa fa-clock-o fa-2x" aria-hidden="true"></i>
+										<span class="span__time">Time left</span>
+										<div class="timer1">
+											
+											<div class="timer-time1">
+												<span class="timer-text1"></span>
+												<div class="timer-div1">
+													<div class="timer-item1">
+														<span class="timer-item__numbers1" id="timer-v-hours1"></span>
+														<span id="timer-v-hours__text1"> : </span>
+													</div>
+													<div class="timer-item1">
+														<span class="timer-item__numbers1" id="timer-v-minutes1"></span>
+														<span id="timer-v-minutes__text1"> :  </span>
+													</div>
+													<div class="timer-item1">
+														<span class="timer-item__numbers1" id="timer-v-seconds1"></span>
+														<span id="timer-v-seconds__text1"></span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="tab1__div">
+								<h2 class="tab1__div__h2">Lorem ipsum is simply</h2>
+								<div class="tab1__div__items">
+									<div class="tab1__div__item">
+										<h2 class="tab1__div__title">Value</h2>
+										<span class="tab1__div__symbols">$87</span>
+										
+									</div>
+									<div class="tab1__div__item">
+										<h2 class="tab1__div__title">Discount</h2>
+										<span class="tab1__div__symbols">12.1%</span>
+										
+									</div>
+									<div class="tab1__div__item">
+										<h2 class="tab1__div__title">Save</h2>
+										<span class="tab1__div__symbols">$14</span>
+										
+									</div>
+									
+								</div>
+								<div class="tab1__img__timer">
+									<img src="img/Layer21 copy@1X.png"  alt="">
+									<div class="tab1__img__timer__items">
+										<i class="fa fa-clock-o fa-2x" aria-hidden="true"></i>
+										<span class="span__time">Time left</span>
+										<div class="timer3">
+											
+											<div class="timer-time3">
+												<span class="timer-text3"></span>
+												<div class="timer-div3">
+													<div class="timer-item3">
+														<span class="timer-item__numbers3" id="timer-v-hours3"></span>
+														<span id="timer-v-hours__text3"> : </span>
+													</div>
+													<div class="timer-item3">
+														<span class="timer-item__numbers3" id="timer-v-minutes3"></span>
+														<span id="timer-v-minutes__text3"> :  </span>
+													</div>
+													<div class="timer-item3">
+														<span class="timer-item__numbers3" id="timer-v-seconds3"></span>
+														<span id="timer-v-seconds__text3"></span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="tab1__div">
+								<h2 class="tab1__div__h2">Lorem ipsum is simply</h2>
+								<div class="tab1__div__items">
+									<div class="tab1__div__item">
+										<h2 class="tab1__div__title">Value</h2>
+										<span class="tab1__div__symbols">$120</span>
+										
+									</div>
+									<div class="tab1__div__item">
+										<h2 class="tab1__div__title">Discount</h2>
+										<span class="tab1__div__symbols">19.9%</span>
+										
+									</div>
+									<div class="tab1__div__item">
+										<h2 class="tab1__div__title">Save</h2>
+										<span class="tab1__div__symbols">$70</span>
+										
+									</div>
+									
+								</div>
+								<div class="tab1__img__timer">
+									<img src="img/Layer21 copy@1X.png"  alt="">
+									<div class="tab1__img__timer__items">
+										<i class="fa fa-clock-o fa-2x" aria-hidden="true"></i>
+										<span class="span__time">Time left</span>
+										<div class="timer2">
+											
+											<div class="timer-time2">
+												<span class="timer-text2"></span>
+												<div class="timer-div2">
+													<div class="timer-item2">
+														<span class="timer-item__numbers2" id="timer-v-hours2"></span>
+														<span id="timer-v-hours__text2"> : </span>
+													</div>
+													<div class="timer-item2">
+														<span class="timer-item__numbers2" id="timer-v-minutes2"></span>
+														<span id="timer-v-minutes__text2"> :  </span>
+													</div>
+													<div class="timer-item2">
+														<span class="timer-item__numbers2" id="timer-v-seconds2"></span>
+														<span id="timer-v-seconds__text2"></span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="tab1__div">
+								<h2 class="tab1__div__h2">Lorem ipsum is simply</h2>
+								<div class="tab1__div__items">
+									<div class="tab1__div__item">
+										<h2 class="tab1__div__title">Value</h2>
+										<span class="tab1__div__symbols">$56</span>
+										
+									</div>
+									<div class="tab1__div__item">
+										<h2 class="tab1__div__title">Discount</h2>
+										<span class="tab1__div__symbols">51%</span>
+										
+									</div>
+									<div class="tab1__div__item">
+										<h2 class="tab1__div__title">Save</h2>
+										<span class="tab1__div__symbols">$43</span>
+										
+									</div>
+									
+								</div>
+								<div class="tab1__img__timer">
+									<img src="img/Layer21 copy@1X.png"  alt="">
+									<div class="tab1__img__timer__items">
+										<i class="fa fa-clock-o fa-2x" aria-hidden="true"></i>
+										<span class="span__time">Time left</span>
+										<div class="timer4">
+											
+											<div class="timer-time4">
+												<span class="timer-text4"></span>
+												<div class="timer-div4">
+													<div class="timer-item4">
+														<span class="timer-item__numbers4" id="timer-v-hours4"></span>
+														<span id="timer-v-hours__text4"> : </span>
+													</div>
+													<div class="timer-item4">
+														<span class="timer-item__numbers4" id="timer-v-minutes4"></span>
+														<span id="timer-v-minutes__text4"> :  </span>
+													</div>
+													<div class="timer-item4">
+														<span class="timer-item__numbers4" id="timer-v-seconds4"></span>
+														<span id="timer-v-seconds__text4"></span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="tab3" class="tab-block">
+						<div class="tab1__left">								<h1 class="tab__h1">Lorem Ipsum is simply dummy text of the printing 3</h1>
+							<img src="img/Layer46.png" class="imga" alt=":)">
+							<p class="tab__p">
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p>
+							<div class="tab__div">
+								<img src="img/Layer34@1X.png" alt="">
+								<div class="tab__div_left">
+									<span class="tab__div_number">Phone number</span>
+									<span class="tab__div_digits" type="tel">99 - 998 547 533</span>
+									<div class="fa__div"><i class="fa fa-map-marker fa-5x" aria-hidden="true"></i>
+										<div class="address__div"><span class="tab__div_address">Address</span> 								<span class="tab__div_text">Lorem Ipsum is simply Dummy text of the printing And typesetting industry. </span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<p class="tab__p">
+							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries but also the leap into electronic typesetting, remaining essentially unchanged.
+							It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.
+						</p>
+					</div>
+					<div class="tab1__right">
+						<h1 class="tab1__h1">Todays deals</h1>
+						<div class="tab1__div">
+							<h2 class="tab1__div__h2">Lorem ipsum is simply</h2>
+							<div class="tab1__div__items">
+								<div class="tab1__div__item">
+									<h2 class="tab1__div__title">Value</h2>
+									<span class="tab1__div__symbols">$54</span>
+									
+								</div>
+								<div class="tab1__div__item">
+									<h2 class="tab1__div__title">Discount</h2>
+									<span class="tab1__div__symbols">11%</span>
+									
+								</div>
+								<div class="tab1__div__item">
+									<h2 class="tab1__div__title">Save</h2>
+									<span class="tab1__div__symbols">$23</span>
+									
+								</div>
+								
+							</div>
+							<div class="tab1__img__timer">
+								<img src="img/Layer21 copy@1X.png"  alt="">
+								<div class="tab1__img__timer__items">
+									<i class="fa fa-clock-o fa-2x" aria-hidden="true"></i>
+									<span class="span__time">Time left</span>
+									<div class="timer1">
+										
+										<div class="timer-time1">
+											<span class="timer-text1"></span>
+											<div class="timer-div1">
+												<div class="timer-item1">
+													<span class="timer-item__numbers1" id="timer-v-hours1"></span>
+													<span id="timer-v-hours__text1"> : </span>
+												</div>
+												<div class="timer-item1">
+													<span class="timer-item__numbers1" id="timer-v-minutes1"></span>
+													<span id="timer-v-minutes__text1"> :  </span>
+												</div>
+												<div class="timer-item1">
+													<span class="timer-item__numbers1" id="timer-v-seconds1"></span>
+													<span id="timer-v-seconds__text1"></span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tab1__div">
+							<h2 class="tab1__div__h2">Lorem ipsum is simply</h2>
+							<div class="tab1__div__items">
+								<div class="tab1__div__item">
+									<h2 class="tab1__div__title">Value</h2>
+									<span class="tab1__div__symbols">$97</span>
+									
+								</div>
+								<div class="tab1__div__item">
+									<h2 class="tab1__div__title">Discount</h2>
+									<span class="tab1__div__symbols">43.1%</span>
+									
+								</div>
+								<div class="tab1__div__item">
+									<h2 class="tab1__div__title">Save</h2>
+									<span class="tab1__div__symbols">$10</span>
+									
+								</div>
+								
+							</div>
+							<div class="tab1__img__timer">
+								<img src="img/Layer21 copy@1X.png"  alt="">
+								<div class="tab1__img__timer__items">
+									<i class="fa fa-clock-o fa-2x" aria-hidden="true"></i>
+									<span class="span__time">Time left</span>
+									<div class="timer3">
+										
+										<div class="timer-time3">
+											<span class="timer-text3"></span>
+											<div class="timer-div3">
+												<div class="timer-item3">
+													<span class="timer-item__numbers3" id="timer-v-hours3"></span>
+													<span id="timer-v-hours__text3"> : </span>
+												</div>
+												<div class="timer-item3">
+													<span class="timer-item__numbers3" id="timer-v-minutes3"></span>
+													<span id="timer-v-minutes__text3"> :  </span>
+												</div>
+												<div class="timer-item3">
+													<span class="timer-item__numbers3" id="timer-v-seconds3"></span>
+													<span id="timer-v-seconds__text3"></span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tab1__div">
+							<h2 class="tab1__div__h2">Lorem ipsum is simply</h2>
+							<div class="tab1__div__items">
+								<div class="tab1__div__item">
+									<h2 class="tab1__div__title">Value</h2>
+									<span class="tab1__div__symbols">$103</span>
+									
+								</div>
+								<div class="tab1__div__item">
+									<h2 class="tab1__div__title">Discount</h2>
+									<span class="tab1__div__symbols">35.7%</span>
+									
+								</div>
+								<div class="tab1__div__item">
+									<h2 class="tab1__div__title">Save</h2>
+									<span class="tab1__div__symbols">$38</span>
+									
+								</div>
+								
+							</div>
+							<div class="tab1__img__timer">
+								<img src="img/Layer21 copy@1X.png"  alt="">
+								<div class="tab1__img__timer__items">
+									<i class="fa fa-clock-o fa-2x" aria-hidden="true"></i>
+									<span class="span__time">Time left</span>
+									<div class="timer2">
+										
+										<div class="timer-time2">
+											<span class="timer-text2"></span>
+											<div class="timer-div2">
+												<div class="timer-item2">
+													<span class="timer-item__numbers2" id="timer-v-hours2"></span>
+													<span id="timer-v-hours__text2"> : </span>
+												</div>
+												<div class="timer-item2">
+													<span class="timer-item__numbers2" id="timer-v-minutes2"></span>
+													<span id="timer-v-minutes__text2"> :  </span>
+												</div>
+												<div class="timer-item2">
+													<span class="timer-item__numbers2" id="timer-v-seconds2"></span>
+													<span id="timer-v-seconds__text2"></span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tab1__div">
+							<h2 class="tab1__div__h2">Lorem ipsum is simply</h2>
+							<div class="tab1__div__items">
+								<div class="tab1__div__item">
+									<h2 class="tab1__div__title">Value</h2>
+									<span class="tab1__div__symbols">$99</span>
+									
+								</div>
+								<div class="tab1__div__item">
+									<h2 class="tab1__div__title">Discount</h2>
+									<span class="tab1__div__symbols">45.1%</span>
+									
+								</div>
+								<div class="tab1__div__item">
+									<h2 class="tab1__div__title">Save</h2>
+									<span class="tab1__div__symbols">$29</span>
+									
+								</div>
+								
+							</div>
+							<div class="tab1__img__timer">
+								<img src="img/Layer21 copy@1X.png"  alt="">
+								<div class="tab1__img__timer__items">
+									<i class="fa fa-clock-o fa-2x" aria-hidden="true"></i>
+									<span class="span__time">Time left</span>
+									<div class="timer4">
+										
+										<div class="timer-time4">
+											<span class="timer-text4"></span>
+											<div class="timer-div4">
+												<div class="timer-item4">
+													<span class="timer-item__numbers4" id="timer-v-hours4"></span>
+													<span id="timer-v-hours__text4"> : </span>
+												</div>
+												<div class="timer-item4">
+													<span class="timer-item__numbers4" id="timer-v-minutes4"></span>
+													<span id="timer-v-minutes__text4"> :  </span>
+												</div>
+												<div class="timer-item4">
+													<span class="timer-item__numbers4" id="timer-v-seconds4"></span>
+													<span id="timer-v-seconds__text4"></span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</section>
+</div>
+<footer class="footer">
+	<p>© 2012 Deals Designed by cssauthor.com</p>
+</footer>
+<link rel="stylesheet" href="../dist/mainper.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+	$(window).on('load', function() {
+		$('.preloader').delay(300).fadeOut('slow');
+	})
+</script>
+<script src="../app/js/script.js"></script>
+<script src="../app/js/script2.js"></script>
+<script src="../app/js/script3.js">	</script>
+<script src="../app/js/script4.js"></script>
+<script src="../app/js/script5.js"></script>
+<script src="../app/js/script6.js"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+{
+  "name": "12project",
+  "version": "1.0.0",
+  "description": "deal site",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anysound/myfirstrepo.git"
+  },
+  "author": "Anysound",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anysound/myfirstrepo/issues"
+  },
+  "homepage": "https://github.com/Anysound/myfirstrepo#readme",
+  "dependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-sass": "^3.1.0"
+  },
+  "devDependencies": {
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglifyjs": "^0.6.2"
+  }
+}

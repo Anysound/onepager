@@ -1,0 +1,466 @@
+body
+	margin: 0
+	padding: 0
+	background: url('/img/bg.png') no-repeat
+
+	background-size: cover
+	color: black
+	text-align: left
+	margin-left: 10%
+	margin-right: 13.2%
+	font-family: 'Open Sans', sans-serif
+a 
+	text-decoration: none		
+.header
+	margin-top: 26px
+.logonav 	
+	display: flex
+	align-items: flex-start
+	justify-content: space-between
+.sign
+	align-self: stretch
+.sign-up
+	color: #d8e6f5
+	position: relative
+.sign-in
+	color: #d8e6f5
+.sign-up:after
+	content: '|'
+	display: block
+	position: absolute
+	top: 0
+	left: -22px	
+.main
+	margin-top: -1043px
+	background: url('/img/321.png') no-repeat
+	background-size: cover
+	z-index: 1
+	height: auto
+	width: 72%
+	display: flex
+	margin-left: auto
+	position: relative
+	border-radius: 0 103px 5px 0 
+.btn
+	width: 252px
+	height: 48px
+	background: linear-gradient(to bottom, #ffffff, #f0f0f0)
+	border-radius: 5px
+	display: flex
+	align-items: center
+	padding: 10px
+	box-sizing: border-box
+.checkout
+  transition: all 1s
+  width: 87px
+  height: 24px
+  background: linear-gradient(to bottom, #4587cd, #144c88)
+  border: 0
+  display: block
+  color: white
+  text-decoration: none
+  align-items: center
+  margin-left: auto
+  border-radius: 5px
+  
+  &:hover
+  	transition: all .6s
+  	background: linear-gradient(to top, #4587cd, #144c88)
+  	color: #d2d2d2
+
+.fa-shopping-cart
+	color: #2f6bab
+	display: block
+	font-size: 50px
+.form-group
+	display: flex
+	align-items: center
+.sign
+	display: flex
+	align-items: center
+	margin-right: 30px
+.sign-up
+	margin-left: 36px
+.tab-link   
+  color: #3c3c3c
+  display: inline-flex
+  justify-content: center
+  align-items: center
+  background: linear-gradient(to bottom, #fdfdfd, #c3c3c3)
+  width: 133px
+  height: 35px
+  //transition: 2s
+  font-weight: 700
+  &-active 
+    color: white
+  &:hover
+    background: linear-gradient(to bottom, #4e8dcf, #154d89)
+    //transition: 9s
+    color: white
+.first_link
+	border-radius: 5px 0px 0px 0px
+.second_link
+	margin-left: -7px
+.third_link
+	border-radius: 0 5px 0 0
+	margin-left: -5px
+.tab-block 
+  padding: 5px
+  display: none
+  &-active 
+    display: flex
+.tab-main
+	display: flex
+	flex-direction: column
+	height: auto
+.tab-links
+	margin-top: -35px
+	display: block
+select
+	background: rgba(255,255,255,0)
+	border: none
+	color: white
+	font-size: 15px
+	margin-left: 40px
+#get_value
+	color: white
+	background: #357dca
+.prices
+	margin-bottom: 0px
+	background: linear-gradient(to bottom right, #5a94d3, #195698)
+	width: 28%
+	height: 100px
+	display: flex
+	align-items: center
+	justify-content: space-around
+    position: relative
+.main-section
+	display: flex
+	flex-direction: column
+	height: auto
+
+.prices__items
+	display: flex
+	align-items: center
+	text-align: left
+
+.prices__item
+  display: flex
+  flex-direction: column
+  align-items: center
+  margin-right: 22px
+  position: relative
+  &:after
+  	content: '|'
+  	display: block
+  	position: absolute
+  	right: -25px
+  	font-size: 40px
+  	color: white
+  	font-weight: 10
+  &:last-child:after
+  	display: none	
+
+.prices__items_value
+	font-size: 16px
+	color: #f1f6fb
+	text-align: left
+.prices__items_digits
+	color: white
+	font-size: 31px
+	font-weight: 500
+	display: flex
+	text-align: left
+	margin-left: 10px
+.timer-time
+	display: flex
+	flex-direction: column
+	justify-content: center
+	width: 290px
+	height: 77px
+	justify-content: space-around
+	background: #10447b
+	text-align: left
+	padding-left: 55px
+.prices-section
+	display: flex
+	flex-direction: column
+
+.timer
+	display: flex
+	flex-direction: column
+	width: 290px
+.timer-div
+	display: flex
+	justify-content: flex-start
+#timer-v-minutes__text
+	color: #eff3f6
+	font-size: 22px
+#timer-v-hours__text
+	color: #eff3f6
+	font-size: 22px	
+.timer-text
+	color: #eff3f6
+	margin-bottom: -15px	
+.timer-item__numbers
+	color: #eff3f6
+	font-size: 32px
+    font-family: 'Exo 2', sans-serif
+.timer-under
+	display: flex
+	padding-top: 2px
+	box-sizing: border-box
+	padding-left: 46px
+	height: 28px
+	width: 293px
+	background: linear-gradient(to bottom right, #5a94d3, #195698)
+.timer-under-p
+	margin-right: 16px
+	margin-top: 0
+	font-size: 16px
+	color: #eff3f6
+.buy-now
+	display: flex
+	flex-direction: column
+	align-items: center
+	width: 290px
+	height: 290px
+	background: #154f8d
+	position: relative
+.buy-button img
+	position: absolute
+	right: 0
+	margin-top: 18px
+	
+.buy-price
+	font-size: 60px
+	color: white
+	margin: 15px 0 0 0
+	font-weight: 1900
+.buy-btn
+  display: inline-block
+  color: white
+  font-size: 27px
+  font-weight: 400
+  width: 207px
+  height: 70px
+  position: relative
+  margin-top: 135px
+  border-radius: 5px
+  transition: 1.5s
+  
+  &:hover
+  	color: #10447b
+    transition: 1s 
+.buy-btn__1
+	transition: all .6s ease-in-out
+	left: 0
+	position: absolute
+	top: 0
+	height: 50px
+.buy-btn__2
+	transition: all .6s ease-in-out
+	left: 75px
+	position: absolute
+	top: 0
+	height: 50px
+	opacity: 0
+	filter: alpha(opacity = 0)
+.buy-btn__1
+	left: 10px
+	//opacity: 0
+	//filter: alpha(opacity = 0)
+.buy-btn:hover img.buy-btn__2
+  	opacity: 1
+  	filter: alpha(opacity = 100)
+.buy-btn:hover img.buy-btn__1, .buy-btn img.buy-btn__1:hover
+  	opacity: 0
+  	filter: alpha(opacity = 0)
+.buy-div
+	position: absolute
+	top: 0
+.recc
+	position: relative
+	margin-top: 115px
+	color: white
+.icons
+	display: flex
+	width: 140px
+	justify-content: space-around
+.icons__item
+  width: 30px
+  height: 30px
+  background: linear-gradient(to bottom, #a2c2e4, #2566ad)
+  font-size: 13px
+  display: flex
+  justify-content: center
+  align-items: center
+  border-radius: 4px
+  &:hover
+  	animation: buy 1s infinite alternate
+    background: linear-gradient(to top, #a2c2e4, #2566ad)
+
+iframe
+	height: 290px
+	margin-bottom: 0px
+#vk_groups
+	margin-bottom: 55px
+.tab1__left
+	width: 66%
+	height: auto
+	margin-right: 15px
+	box-sizing: border-box
+	margin-left: 27px
+
+.tab__div
+	display: flex	
+.tab__div_number, .tab__div_digits
+	display: block
+.fa__div
+	display: flex
+.tab__div_address
+	display: block
+.tab__div_text
+	display: block	
+#tab1
+	height: auto
+	margin-left: 0px
+
+.img__angle
+	width: 15%
+	height: 15%
+	position: absolute
+	right: 0
+	top: 3px
+.tab__h1
+	color: rgba(25, 83, 144, 255)
+	text-align: left
+	margin-bottom: 10px
+	font-weight: 2900
+.tab__p
+	font-size: 15px
+	line-height: 24px
+	margin-bottom: 8px
+.tab__div_left
+	margin-left: 17px
+.tab__div_number
+	font-size: 17px
+.tab__div_digits
+	font-size: 24px
+	font-weight: 700
+	margin-bottom: 29px		
+.fa-map-marker
+	margin-right: 11px
+.tab__div_text
+	font-size: 13px
+.tab__div_address
+	margin-bottom: 8px		
+.tab1__right
+    width: 33%
+    border-left: 1px solid #dddddd
+    height: auto
+    padding-left: 15px	
+.tab1__h1
+	margin-top: 20px
+	color: rgba(25, 83, 144, 255)
+	font-weight: 100
+
+.tab__h1, .tab1__div__h2, .tab1__div__title
+	color: rgba(25, 83, 144, 255)    
+.tab1__div__h2
+	font-size: 17px
+	font-weight: 700
+	margin-bottom: 8px	
+.tab1__div__title
+	font-size: 13px
+	margin-top: 0
+	margin-bottom: 0
+.tab1__div__symbols
+	margin-top: 0px
+	margin-bottom: 0px	
+	font-weight: 700
+.tab1__div__items
+  display: flex
+  justify-content: space-between
+  width: 70%
+  height: 50px
+  &:first-child
+  	border-right: 1px solid #e6e6e6
+.tab1__div__item:first-child
+	border-right: 2px solid #e6e6e6
+	padding-right: 10px
+	margin-bottom: 0
+	bottom: 10px
+.tab1__div__item:nth-child(2)
+	border-right: 2px solid #e6e6e6
+	padding-right: 10px
+	margin-bottom: 0
+	bottom: 10px	
+.tab1__div__item
+	height: 37px
+.tab1__img__timer
+  display: flex
+  margin-top: 11px
+  margin-right: 24px
+  padding-bottom: 25px
+  border-bottom: 1px solid #e6e6e6
+  &:nth-child(1)
+  	border-bottom: 0px
+
+.timer-div1, .timer-div2, .timer-div3, .timer-div4
+	display: flex	
+
+.fa-clock-o
+	color: #bcc0c0
+	display: block	
+	margin-left: 15px
+.span__time
+	display: block
+	margin-left: 15px
+	color: #696969	
+.timer-time1, .timer-time2, .timer-time3, .timer-time4
+	margin-left: 15px	
+.timer-item__numbers1, .timer-item__numbers2, .timer-item__numbers3, .timer-item__numbers4
+	font-weight: 700	
+@-webkit-keyframes fadeIn 
+  from  
+    opacity: 0
+  to  
+  	opacity: 1
+ 
+@keyframes fadeIn 
+  from 
+    opacity: 0
+  to  
+    opacity: 1
+
+.tab-link-active
+	background: linear-gradient(to bottom, #4e8dcf, #154d89)
+    color: white
+@keyframes buy
+  0%
+    border-radius: 10% 10% 10% 10%
+    
+  //25%
+    //border-radius: 75% 10% 10% 10%
+    
+  50%
+  	border-radius: 75% 75% 10% 10%
+  	
+  //75%
+    //border-radius: 75% 75% 75% 10%
+       
+  100%
+  	border-radius: 75% 75% 75% 75%
+  	
+ 
+// блоки по умолчанию скрыты, видимый только тот что активен
+.tab-block-active 
+    display: flex
+    -webkit-animation: fadeIn 1.5s
+    animation: fadeIn 1.5s
+.footer 
+	display: flex
+	justify-content: center
+.footer p
+	color: white  
